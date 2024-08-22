@@ -1,10 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 #card {
     background-color: rgb(179, 218, 216);
     width: 400px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid rgb(92, 135, 92);
+    padding: 10px 5px;
+    margin: 20px auto;
+    border-radius: 20px;
 }
 #image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin-right: 10px;
 }
